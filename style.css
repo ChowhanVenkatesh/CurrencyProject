@@ -9,7 +9,7 @@ body, h1, h2, p {
 /* Body and text styling */
 body {
     font-family: 'Bree serif';
-    background-color: black;
+    background-color: chocolate;
     color: #333;
 }
 
@@ -18,7 +18,7 @@ body {
     margin: 20px 0;
     font-family: 'Bree serif';
     font-size: 70px;
-    color: chocolate;
+    color: black;
 }
 
 /* Container styling */
