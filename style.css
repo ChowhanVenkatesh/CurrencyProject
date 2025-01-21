@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+/* Reset default styling */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body and text styling */
+body {
+    font-family: 'Bree serif';
+    background-color: black;
+    color: #333;
+}
+
+/* Heading styling */
+.heading {
+    margin: 20px 0;
+    font-family: 'Bree serif';
+    font-size: 70px;
+    color: chocolate;
+}
+
+/* Container styling */
+.container {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Main section */
+.main {
+    padding: 20px;
+}
+
+/* Form group */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Input field */
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Prevent text wrapping in select options */
+.form-control option {
+    white-space: nowrap;
+}
+
+/* Button styling */
+.btn {
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-width: 2px;
+}
+
+/* Primary button */
+.btn-black {
+    background-color: black;
+    border-color: chocolate;
+    color: chocolate;
+}
+
+/* Reset button */
+.btn-black.reset {
+    background-color: black;
+    border-color: chocolate;
+}
+
+/* Center text */
+.text-center {
+    text-align: center;
+}
+
+/* Converted amount display */
+#finalAmount {
+    margin-top: 20px;
+}
+
+.finalValue {
+    color: chocolate;
+    font-weight: bold;
+}
+
+#sell {
+    justify-content: center;
+    align-items: center;
+}
